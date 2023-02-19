@@ -1,0 +1,15 @@
+
+1.Install nodejs on server
+https://nodejs.org/en/
+
+2. npm install -g npm
+
+3. Check njs version
+npm -v
+
+4. npm install express
+npm install --save express
+npm install pg
+
+5.
+add details (localhost, user, password for postgres server) in pool.js file
