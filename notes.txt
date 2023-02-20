@@ -13,3 +13,10 @@ npm install pg
 
 5.
 add details (localhost, user, password for postgres server) in pool.js file
+
+6. open port for remote server on (sql) 
+-create inbound firewall rule allow 5432, edit
+-postgresql.conf
+-pg_hba.conf
+-restart pssql service locally
+https://www.project-open.com/en/howto-postgresql-port-secure-remote-access
